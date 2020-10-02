@@ -1,0 +1,137 @@
+    body {
+        background: url('../images/bg.jpg');
+    }
+    
+    body,
+    .subtitle,
+    .autor-skill,
+    .btn-primary {
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .autor-name,
+    .menu-item,
+    .title,
+    .whoiam {
+        font-family: 'PT Serif', serif;
+    }
+    
+    .title {
+        color: #01a1ec;
+        margin-top: 6rem;
+        font-weight: bold;
+        font-size: 4rem;
+        text-align: left;
+    }
+    
+    .subtitle {
+        font-size: 1.7rem;
+        color: white;
+        text-align: left;
+    }
+    
+    .autor-logo {
+        display: inline-block;
+        width: 7rem;
+        position: relative;
+        margin-right: 2rem;
+        border: 1px solid;
+        border-radius: 50%;
+        border-color: #01a1ec;
+    }
+    
+    .autor-name {
+        color: #01a1ec;
+        font-size: 1.5rem;
+        display: inline-block;
+        text-align: left;
+        letter-spacing: 0.2rem;
+        position: relative;
+        top: 1.3rem;
+    }
+    
+    .autor-skill {
+        color: lightgray;
+        display: inline-block;
+        text-align: left;
+        position: relative;
+        bottom: 1rem;
+        text-underline-position: under;
+        text-decoration: underline;
+        text-decoration-color: white;
+        font-size: 1rem;
+    }
+    
+    .menu-item {
+        color: white;
+        display: inline-block;
+        position: relative;
+        font-weight: 400;
+        font-size: 1.2rem;
+        padding: 0 0.6rem 0 0.6rem;
+    }
+    
+    .whoiam {
+        color: #01a1ec;
+        display: inline-block;
+        position: relative;
+        text-align: left;
+        font-size: 0.9rem;
+        letter-spacing: 0;
+        top: 1rem;
+        right: 12.8rem;
+    }
+    
+    .menu-item:hover {
+        text-decoration: none;
+        color: #01a1ec;
+    }
+    
+    .btn-primary {
+        color: white;
+        background-color: #01a1ec;
+        font-weight: bolder;
+        border-color: #01a1ec;
+        font-size: 2rem;
+    }
+    
+    .btn-primary:hover {
+        color: #01a1ec;
+        background-color: white;
+        border-color: gray;
+    }
+    
+    .btn-lg {
+        padding: .5rem 2rem;
+    }
+    /* Posicionamento */
+    
+    .position-padding-autor-logo {
+        padding: 2rem
+    }
+    
+    .position-padding-menu-itens {
+        padding: 4rem;
+        text-align: right;
+    }
+    
+    .position-button-library {
+        text-align: right;
+        margin-top: 2rem;
+        padding: 4rem 4rem 2rem 4rem;
+    }
+    
+    .footer-style {
+        width: 100%;
+        text-align: center;
+        background-color: #01a1ec;
+        color: white;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .fa-atlas {
+        padding-right: 0.9rem;
+    }
